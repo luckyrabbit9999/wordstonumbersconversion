@@ -1,0 +1,8 @@
+node_modules/
+# Exclude the src/test directory
+src/_testData/
+src/test/
+test/
+
+babel.config.json
+.npmignore

@@ -1,0 +1,25 @@
+{
+  "name": "wordstonumbersconversion",
+  "version": "1.0.1",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "clean": "rimraf lib",
+    "build": "babel src --out-dir lib",
+    "prepublishOnly": "npm run build",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
+    "rimraf": "^6.0.1"
+  }
+}
