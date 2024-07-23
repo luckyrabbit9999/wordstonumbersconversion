@@ -1,6 +1,6 @@
 {
   "name": "wordstonumbersconversion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "@babel/cli": "^7.24.8",

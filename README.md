@@ -14,3 +14,7 @@ convertToNumber(three thousand six hundred ninety dollars and seventy five cents
 twenty three ninety nine could be 23.99 or 2399 passing in an optional parameter setting min and max values will help to alleviate some confusion in the output
 convertToNumber ('twenty three ninety nine') //2399
 convertToNumber ('twenty three ninety nine',[{"option": "ExpectedRange","value": {"min": 10,"max": 500}}]) //23.99
+
+
+#1.02
+**Updated to MIT license
